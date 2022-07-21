@@ -1,0 +1,86 @@
+.main{
+    background: #d8d8d7;
+    height: 100%;
+    width: 100vw;
+    margin-top: -10px;
+    font-family: 'Montserrat';
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    font-family: "Inter";
+    padding-top: 25px;
+    margin-left: 10px;
+}
+
+.logout__button{
+    min-width: 20px;
+    padding: 10px 15px;
+    background: #244a9d;
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 85px;
+}
+
+.logout__button:hover{
+    background: #a5d0fb;
+}
+.user__name {
+    color: #244a9d;
+}
+.wc{
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+
+.container{
+    margin-left: 30px;
+    margin-right: 15px;
+    padding-bottom: 300px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.sector{
+    padding:20px;
+    background: #244a9d;
+    margin-right: 15px;
+    color: #ffff;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sector:hover{
+    background: #a5d0fb;
+}
+
+.logo1{
+    width: 50%;
+    margin-left: 90px;
+}
+
+.logo_content{
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    color: #ffff;
+}
+
+.container1{
+    margin-left: 30px;
+    margin-right: 15px;
+}
